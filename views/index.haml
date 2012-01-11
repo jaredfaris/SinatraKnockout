@@ -1,0 +1,13 @@
+.demo
+  %h1
+    Woah
+
+  .title
+    This is totally a templated view!
+
+  .main-container
+    .left
+      %textarea{data: {bind: "value: demoText, valueUpdate: 'keyup'"}}
+
+    .right
+      .target{data: {bind:"text: demoText"}}
